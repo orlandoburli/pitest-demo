@@ -25,6 +25,7 @@ public class PalindromeUnitTest {
         assertFalse(palindromeTester.isPalindrome("box"));
     }
 
+    // Comment this test to see 100% coverage but 86% mutation
     @Test
     public void whenNearPalindrom_thenReject(){
         Palindrome palindromeTester = new Palindrome();

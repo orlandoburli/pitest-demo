@@ -65,10 +65,10 @@
                 </dependencies>
                 <configuration>
                     <targetClasses>
-                        <param>com.rocketlawyer*</param>
+                        <param>com.rocketlawyer.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>com.rocketlawyer*</param>
+                        <param>com.rocketlawyer.*</param>
                     </targetTests>
                 </configuration>
             </plugin>
